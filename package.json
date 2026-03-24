@@ -1,0 +1,27 @@
+{
+  "name": "tdd-testes",
+  "version": "1.0.0",
+  "description": "Aula prática de testes unitários com Vitest e TDD",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:ui": "npx vitest --ui",
+    "coverage": "vitest run --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/irn64/tdd-testes-lab2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/irn64/tdd-testes-lab2/issues"
+  },
+  "homepage": "https://github.com/irn64/tdd-testes-lab2#readme",
+  "devDependencies": {
+    "@vitest/ui": "^4.0.18",
+    "vitest": "^4.0.18"
+  }
+}
